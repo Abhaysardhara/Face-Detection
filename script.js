@@ -16,8 +16,6 @@ function startVideo() {
   )
 }
 
-let predictedAges = []
-
 video.addEventListener('play', () => {
   const canvas = faceapi.createCanvasFromMedia(video)
   document.body.append(canvas)
